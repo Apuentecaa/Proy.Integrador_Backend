@@ -1,0 +1,27 @@
+# Compiled files
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.sixth/
+
+# Maven wrapper (lo generaremos aparte)
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Generated PDFs
+boletas/
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+application-prod.properties
