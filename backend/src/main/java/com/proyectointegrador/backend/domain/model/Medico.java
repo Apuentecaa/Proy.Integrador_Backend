@@ -1,4 +1,5 @@
 package com.proyectointegrador.backend.domain.model;
+
 public class Medico {
 
     private Long id;
@@ -13,8 +14,8 @@ public class Medico {
     }
 
     public Medico(Long id, String nombre, String especialidad,
-                String sede, Double rating,
-                Integer pacientes, String estado) {
+            String sede, Double rating,
+            Integer pacientes, String estado) {
 
         this.id = id;
         this.nombre = nombre;
@@ -82,4 +83,3 @@ public class Medico {
         this.estado = estado;
     }
 }
-
