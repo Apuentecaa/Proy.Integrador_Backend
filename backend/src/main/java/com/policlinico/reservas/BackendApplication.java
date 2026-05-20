@@ -1,4 +1,4 @@
-package com.proyectointegrador.backend;
+package com.policlinico.reservas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
