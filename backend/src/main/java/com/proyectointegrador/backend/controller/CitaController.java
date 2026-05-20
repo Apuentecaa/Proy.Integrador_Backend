@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admin/citas")
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CitaController {
 
     @Autowired

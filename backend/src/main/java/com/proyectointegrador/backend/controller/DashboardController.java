@@ -10,7 +10,7 @@ import com.proyectointegrador.backend.dto.DashboardDTO;
 
 @RestController
 @RequestMapping("/api/admin/dashboard")
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://localhost:3000")
 public class DashboardController {
     @Autowired
     private DashboardService dashboardService;
